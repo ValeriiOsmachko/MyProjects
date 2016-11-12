@@ -1,0 +1,13 @@
+INSERT INTO ENROLLEE(city,region,User_idUser,isBlocked) values ('Washington','Washington',1,0);
+INSERT INTO ENROLLEE(city,region,User_idUser,isBlocked) values ('Los Angeles','Calofirnia',2,0);
+INSERT INTO ENROLLEE(city,region,User_idUser,isBlocked) values ('New York','New York',3,0);
+INSERT INTO ENROLLEE(city,region,User_idUser,isBlocked) values ('Munchen','Bayern',4,0);
+INSERT INTO ENROLLEE(city,region,User_idUser,isBlocked) values ('London','England',5,0);
+INSERT INTO ENROLLEE(city,region,User_idUser,isBlocked) values ('Barcelona','Catalonya',6,0);
+INSERT INTO ENROLLEE(city,region,User_idUser,isBlocked) values ('Sevilla','Basks',7,0);
+INSERT INTO ENROLLEE(city,region,User_idUser,isBlocked) values ('Paris','Paris',8,0);
+INSERT INTO ENROLLEE(city,region,User_idUser,isBlocked) values ('Kiev','Kievsiy',9,0);
+INSERT INTO ENROLLEE(city,region,User_idUser,isBlocked) values ('Kharkiv','Kharkivskiy',10,0);
+INSERT INTO ENROLLEE(city,region,User_idUser,isBlocked) values ('San Francisko','California',11,0);
+INSERT INTO ENROLLEE(city,region,User_idUser,isBlocked) values ('Orlando','Florida',12,0);
+INSERT INTO ENROLLEE(city,region,User_idUser,isBlocked) values ('Milan','Milano',13,0);

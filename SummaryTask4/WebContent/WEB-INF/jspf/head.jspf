@@ -1,0 +1,27 @@
+<%@ include file="/WEB-INF/jspf/directive/page.jspf"%>
+<%@ include file="/WEB-INF/jspf/directive/taglib.jspf"%>
+
+<head>
+<!-- Title -->
+<title> ${title}</title>
+<!-- Content type -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Icon 
+<link rel="shortcut icon"
+    href='<c:url value="/resources/img/favicon.png" />'> -->
+
+<!-- CSS -->
+<link
+	href='https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic'
+	rel='stylesheet' type='text/css'>
+<!-- Bootstrap -->
+<link href='<c:url value="/resources/css/bootstrap.min.css" />'
+	rel="stylesheet">
+<!-- Custom CSS -->
+<link href='<c:url value="/resources/css/style.css" />' rel="stylesheet">
+
+<!-- Languages 
+<link href='<c:url value="/resources/css/languages.min.css" />'
+    rel="stylesheet"> -->
+
+</head>

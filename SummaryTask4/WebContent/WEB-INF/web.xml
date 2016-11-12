@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>SummaryTask4</display-name>
+  
+  <resource-ref>
+    <description>Database for university admission</description>
+    <res-ref-name>jdbc/st4db</res-ref-name>
+    <res-type>javax.sql.DataSource</res-type>
+    <res-auth>Container</res-auth>
+  </resource-ref>
+
+
+  <servlet>
+  	<servlet-name>FrontController</servlet-name>
+  	<servlet-class>ua.nure.osmachko.summarytask4.web.FrontController</servlet-class> 
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>FrontController</servlet-name>
+    <url-pattern>/controller</url-pattern>
+  </servlet-mapping>
+  
+  
+   
+      <filter>
+		<filter-name>AccessFilter</filter-name>
+		<filter-class>ua.nure.osmachko.summarytask4.web.filters.AccessFilter</filter-class>
+		<init-param>
+			<param-name>admin</param-name>
+			<param-value>deleteFaculty updateFaculty addFaculty listUsers MakeResultOnFaculty
+			blockEnrolee unblockEnrolee showAdminPage showResultOnFaculty showResultsOnFaculty</param-value>
+		</init-param>
+		<init-param>
+			<param-name>client</param-name>
+			<param-value> registrateOnFaculty showFacultySubjects confirmMarks
+			addEnrollee showEnrolleePage</param-value>
+		</init-param>
+		<init-param>
+			<param-name>common</param-name>
+			<param-value>registrateUser login listFaculties logout sortFacultyByName showSortedByName sortFacultyByTotalSeats
+			showSortedByTotalSeat sortFacultyByBudgetSeats showSortedByBudgetSeats language showRegistrationPage</param-value>
+		</init-param>
+		<init-param>
+			<param-name>out-of-control</param-name>
+			<param-value>login </param-value>
+		</init-param>
+	</filter>
+	
+	
+	<filter-mapping>
+		<filter-name>AccessFilter</filter-name>
+		<servlet-name>FrontController</servlet-name>
+	</filter-mapping>  
+	 
+	<listener>
+		<listener-class>ua.nure.osmachko.summarytask4.web.listener.ContextListener</listener-class>
+	</listener>  
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

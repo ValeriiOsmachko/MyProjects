@@ -1,0 +1,13 @@
+insert into Users(first_name,last_name,email,password,role) values ('Jack','Jackson','jackson@gmail.com','1253t4','client');
+insert into Users(first_name,last_name,email,password,role) values ('Valerii','Osmachko','vasa@mail.ru','153gs42','client');
+insert into Users(first_name,last_name,email,password,role) values ('Igor','Serko','serko@org.ua','gdsg342','client');
+insert into Users(first_name,last_name,email,password,role) values ('Jorik','Masajorik','masa@gmail.com','gwerg533','client');
+insert into Users(first_name,last_name,email,password,role) values ('Karl','Marks','marks@gmail.com','marks1245','client');
+insert into Users(first_name,last_name,email,password,role) values ('Mickel','Owen','owen@gmail.com','owen2001','client');
+insert into Users(first_name,last_name,email,password,role) values ('Leo','Messi','leo@mail.ru','43263','client');
+insert into Users(first_name,last_name,email,password,role) values ('Stefani','Stefannia','stef@gmail.com','steffi245','client');
+insert into Users(first_name,last_name,email,password,role) values ('Mihail','Portnov','portnov@gmail.com','portnov1954','client');
+insert into Users(first_name,last_name,email,password,role) values ('Aleksandr','Pushkin','pushka@gmail.com','push94','client');
+insert into Users(first_name,last_name,email,password,role) values ('Fedor','Dostoeskii','fedor@gmail.com','fed124','client');
+insert into Users(first_name,last_name,email,password,role) values ('Anna','Ahmatova','anechka@mail.ru','anna53453','client');
+insert into Users(first_name,last_name,email,password,role) values ('Valentin','Petuhov','petuhov@mail.ru','petuhov6452','client');

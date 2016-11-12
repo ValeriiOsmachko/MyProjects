@@ -1,0 +1,11 @@
+insert into Faculty(nameOfFaculty,total_seats,budget_seats) values ('Technical Engineering Faculty', 150,50);
+insert into Faculty(nameOfFaculty,total_seats,budget_seats) values ('Medical Faculty', 200,40);
+insert into Faculty(nameOfFaculty,total_seats,budget_seats) values ('Pharmacology Faculty', 200,40);
+insert into Faculty(nameOfFaculty,total_seats,budget_seats) values ('Economical Faculty', 325,100);
+insert into Faculty(nameOfFaculty,total_seats,budget_seats) values ('Law Faculty', 250,30);
+insert into Faculty(nameOfFaculty,total_seats,budget_seats) values ('Sociology Faculty', 135,20);
+insert into Faculty(nameOfFaculty,total_seats,budget_seats) values ('Programming Faculty', 124,21);
+insert into Faculty(nameOfFaculty,total_seats,budget_seats) values ('Phisical Faculty', 300,150);
+insert into Faculty(nameOfFaculty,total_seats,budget_seats) values ('Chemical Engineering Faculty', 235,76);
+insert into Faculty(nameOfFaculty,total_seats,budget_seats) values ('Biology Faculty', 150,50);
+insert into Faculty(nameOfFaculty,total_seats,budget_seats) values ('Tourism Faculty', 150,50);

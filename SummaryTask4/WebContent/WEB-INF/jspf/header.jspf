@@ -1,0 +1,42 @@
+<%@ include file="/WEB-INF/jspf/directive/page.jspf"%>
+<%@ include file="/WEB-INF/jspf/directive/taglib.jspf"%>
+<%@ include file="/WEB-INF/jspf/head.jspf"%>
+
+
+
+<c:choose>
+	<c:when test="${sessionScope.lang eq 'en'}">
+<c:set var="language" value="${not empty param.language ? param.language : not empty language ? language : pageContext.request.locale}" scope="session" />
+<fmt:setLocale value="${language}" />
+<fmt:setBundle basename="resources_en.properties" />
+	
+	</c:when>
+	<c:when test="${sessionScope.lang eq 'ru'}">
+<c:set var="language" value="${not empty param.language ? param.language : not empty language ? language : pageContext.request.locale}" scope="session" />
+<fmt:setLocale value="${language}" />
+<fmt:setBundle basename="resources.properties" />
+	
+	</c:when>
+</c:choose>
+
+
+<div class="btn-toolbar pull-left">
+			<form action="controller" method="POST" class="fr">
+				<input type="hidden" name="command" value="language">
+				<input type="hidden" name="language" value="en">
+				<input type="hidden" name=url value="${requestScope['javax.servlet.forward.query_string']}">
+				<!-- <input type="image" src="img/en.jpg" alt="Submit" size="20"> -->
+				<input type="submit" class="btn btn-info" value="English">	
+			</form>
+			<form action="controller" method="POST" class="fr">
+				<input type="hidden" name="command" value="language">
+				<input type="hidden" name="language" value="ru">
+				<input type="hidden" name=url value="${requestScope['javax.servlet.forward.query_string']}">
+				<!-- <input type="image" src="img/rus.png" alt="Submit" size="20"> -->
+				<input type="submit" class="btn btn-info" value="Russian">	
+			</form>
+		</div>
+		
+		
+		
+	

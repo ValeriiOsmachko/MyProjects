@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12 px;
+	color: #868585;
+	background: #fdfcfb;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}

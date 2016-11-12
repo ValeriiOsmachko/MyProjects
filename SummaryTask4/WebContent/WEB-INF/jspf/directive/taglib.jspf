@@ -1,0 +1,25 @@
+<%--===========================================================================
+JSTL core tag library.
+===========================================================================--%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
+<%--===========================================================================
+JSTL functions tag library.
+===========================================================================--%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
+<%--===========================================================================
+JSTL i18n tag library.
+===========================================================================--%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<%--===========================================================================
+Custom tag library.
+===========================================================================--%>
+
+<c:set var="language"
+	value="${not empty lang ? lang : pageContext.request.locale.language}"
+	scope="session" />
+<fmt:setLocale value="${language}" />
+<fmt:setBundle basename="resources" />
+
+<%--<fmt:setBundle
+	basename="ua.nure.zhmaiev.SummaryTask4.locale.i18n.Resources" /> --%>
