@@ -17,6 +17,16 @@
 <p><strong>Project description:</strong></p>
  Not allowed to use ORM and DI frameworks. Possible to use
 only Servlet API. One of the main requirement was to use <strong>front controller</strong> software design pattern.
+Pattern which are used in this project: 
+<ul>
+<li>Front Controller</li>
+<li>MVC</li>
+<li>DAO</li>
+<li>Command</li>
+<li>DTO</li>
+<li>Strategy</li>
+<li>Abstract factory</li>
+</ul>
 
 
 Разработать WEB-приложение, которое поддерживает заданную функциональность. Требования к реализации следующие:
