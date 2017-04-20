@@ -13,6 +13,8 @@
 <li>Log4j</li>
 <li>MySQL</li>
 </ul>
+
+<p><strong>Project description:</strong></p>
  Not allowed to use ORM and DI frameworks. Possible to use
 only Servlet API. One of the main requirements is to use <strong>front controller</strong> software design pattern.
 
