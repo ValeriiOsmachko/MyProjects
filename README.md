@@ -2,7 +2,9 @@
 
 <p>final project in EPAM after external courses</p>
 
-Description Environment: Tomcat 7, JSTL, Derby DB (or any other RDBMS), Log4j.
+Description Environment: Tomcat 7, JSTL, Derby DB (or any other RDBMS), Log4j. Not allowed to use ORM and DI frameworks. Possible to use
+only Servlet API. One of the main requirements is to use <strong>front controller</strong> software design pattern.
+
 
 Разработать WEB-приложение, которое поддерживает заданную функциональность. Требования к реализации следующие:
 
