@@ -1,6 +1,6 @@
-SummaryTask4
+# SummaryTask4
 
-final project in EPAM
+<p>final project in EPAM after external courses</p>
 
 Description Environment: Tomcat 7, JSTL, Derby DB (or any other RDBMS), Log4j.
 
