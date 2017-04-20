@@ -16,7 +16,7 @@
 
 <p><strong>Project description:</strong></p>
  Not allowed to use ORM and DI frameworks. Possible to use
-only Servlet API. One of the main requirements is to use <strong>front controller</strong> software design pattern.
+only Servlet API. One of the main requirement was to use <strong>front controller</strong> software design pattern.
 
 
 Разработать WEB-приложение, которое поддерживает заданную функциональность. Требования к реализации следующие:
